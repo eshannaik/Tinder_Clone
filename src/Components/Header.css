@@ -1,0 +1,18 @@
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+	/*space the children apart*/
+	z-index: 100;
+	/* keeps the element on top */
+	border-bottom: 1px solid grey;
+}
+
+.header_logo{
+	object-size: contain;
+	height: 40px;
+}
+
+.header_icon{
+	padding:  20px;
+}
